@@ -18,6 +18,12 @@ class Blog extends CI_Controller{
         echo $this->db->affected_rows();
 
 
+
+
+
+
+
+
         //Query data from database
         $query=$this->db->query('SELECT id,firstname,lastname FROM WishList');
 
